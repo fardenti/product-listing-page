@@ -8,12 +8,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### To run
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Will need to run both together:
 
-Run the api on [http://localhost:4000](http://localhost:4000)
+`npm start`
+Runs the app on [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+`npm run-script start-server`
+Runs the api on [http://localhost:4000](http://localhost:4000)
 
 ### Tech Stack:
 - React JS
