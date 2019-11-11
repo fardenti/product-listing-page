@@ -25,16 +25,11 @@ function App() {
     <div className="App">
       <Heading>test</Heading>
       <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <div>
          {
            products.map(product => <Product {...product} />)
          }
-        </a>
+       </div>
       </header>
     </div>
   );
